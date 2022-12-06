@@ -1,0 +1,9 @@
+
+<body>
+    <h2>詳細</h2>
+
+    <form method="post" action="/update/{{.task.ID}}">
+        <p>内容<input type="text" name="task" size="30" value="{{.task.Content}}" ></p>
+        <p><input type="submit" value="Send"></p>
+    </form>
+</body>
